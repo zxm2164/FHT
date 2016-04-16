@@ -11,9 +11,8 @@
 "repository":
 {
   "type": "git",
-  "url": "https://github.com/zxm2164/FHT"
+  "url": "https://github.com/zxm2164/FHT.git"
 },
 "version":"0.0",
 "downloadUrl":"https://github.com/zxm2164/FHT/archive/master.zip"
- 
 }
