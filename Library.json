@@ -13,8 +13,7 @@
   "type": "git",
   "url": "https://github.com/zxm2164/FHT"
 },
-"examples":[
-  "ArduinoFHT3/FHT/examples/*/*.pde"
-]
+"version":"0.0",
+"downloadUrl":"http://https://github.com/zxm2164/FHT"
  
 }
