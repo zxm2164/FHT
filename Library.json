@@ -10,5 +10,5 @@
   "url": "https://github.com/zxm2164/FHT"
 }
 "examples":[
-  "FHT/examples/*/*.pde"
+  "ArduinoFHT3/FHT/examples/*/*.pde"
 ]
