@@ -1,0 +1,14 @@
+"authors":
+{
+ "name": "Zach Mink",
+ "email": "zxm2164@rit.edu",
+ "url": https://github.com/zxm2164/FHT"
+}
+"repository":
+{
+  "type": "git",
+  "url": "https://github.com/zxm2164/FHT"
+}
+"examples":[
+  "FHT/examples/*/*.pde"
+]
