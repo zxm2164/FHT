@@ -1,0 +1,17 @@
+{
+ "name": "FHT",
+ "description": "Library enables fourier transform math",
+ "keywords": "fht",
+ "authors":
+  {
+   "name": "Zach Mink",
+   "email": "zxm2164@rit.edu",
+   "url": "http://github.com/zxm2164/FHT"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/zxm2164/FHT.git"
+  },
+  "include": "ArduinoFHT3/FHT"
+}
