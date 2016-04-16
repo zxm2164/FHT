@@ -1,18 +1,20 @@
 {
  "name":"FHT"
- "description":"library enables fourier transform math"
- "keywords":"FHT"
+ "description":"library enables fourier transform math",
+ "keywords":"FHT",
  "authors":
 {
  "name": "Zach Mink",
  "email": "zxm2164@rit.edu",
- "url": https://github.com/zxm2164/FHT"
-}
+ "url": "https://github.com/zxm2164/FHT"
+},
 "repository":
 {
   "type": "git",
   "url": "https://github.com/zxm2164/FHT"
-}
+},
 "examples":[
   "ArduinoFHT3/FHT/examples/*/*.pde"
 ]
+ 
+}
