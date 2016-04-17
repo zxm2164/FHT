@@ -68,3 +68,24 @@ fht( real *v, int n, real *tmp )
   }
   return;
 }
+
+/*
+int main(void)
+{
+  real v[N], scratch[N];
+  int k;
+
+  //Fill v[] with a function of known FHT:
+  for(k=0; k<N; k++)
+    v[k] = 0.125*cos(2*PI*3*k/(double)N - PI/4);
+
+  // FHT, iFHT of v[]:
+  print_vector("Orig", v, N);
+  fht( v, N, scratch );
+  print_vector(" FHT", v, N);
+  fht( v, N, scratch );		// iFHT == FHT
+  print_vector("iFHT", v, N);
+
+  exit(EXIT_SUCCESS);
+}
+*/
