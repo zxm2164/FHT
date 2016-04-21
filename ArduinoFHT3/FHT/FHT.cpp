@@ -5,6 +5,7 @@
 
 //int audio::update(int sample)
 /* Print a vector of reals. */
+/*
 static void print_vector(
 	     const char *title,
 	     real *x,
@@ -16,7 +17,7 @@ static void print_vector(
   putchar('\n');
   return;
 }
-
+*/
 
 /*
    fht(v,N):
@@ -34,7 +35,7 @@ static void print_vector(
    [11] Let v[N/2] = ve[N/2] - vo[N/2]
  */
 
-//
+//input function v should be sample (int)
 void fht( double *v, int n, double *tmp )
 {
   if(n>1) {			/* otherwise, do nothing and return */

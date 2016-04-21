@@ -18,6 +18,8 @@ typedef float real;
 class audio {
 	private:
 			int numBins;														//number of bins in the fht
+			real v[N], scratch[N];
+			int k;
 			void fht( float *v, int n, float *tmp );	//calculate the fht with a sample set
 	public:
 		int getBinAmplitude(int bin);
