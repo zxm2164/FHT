@@ -17,9 +17,11 @@ typedef float real;
 
 class audio {
 	private:
+		  bool xBufferFull;
 			int numBins;														//number of bins in the fht
-			real v[N], scratch[N];
+			double v[N];
 			int k;
+			int j = 0;
 			void fht( float *v, int n, float *tmp );	//calculate the fht with a sample set
 	public:
 		int getBinAmplitude(int bin);

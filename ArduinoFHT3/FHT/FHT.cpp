@@ -35,8 +35,29 @@ static void print_vector(
    [11] Let v[N/2] = ve[N/2] - vo[N/2]
  */
 
+int audio::update(int sample){
+  //take the input sample
+  v[j] = (double) sample;
+
+  if !xBufferFull {
+    j++;
+  }
+
+  if (j > N) {
+    j = N;
+    xBufferFull = true;
+  }
+
+  //Only after the buffer is full can the fht be updated
+  if (xBufferFull){
+    audio.fht(float *v, int n, float *tmp);
+  }
+
+}
+
+
 //input function v should be sample (int)
-void fht( double *v, int n, double *tmp )
+void audio::fht( double *v, int n, double *tmp )
 {
   if(n>1) {			/* otherwise, do nothing and return */
     int k,m;
